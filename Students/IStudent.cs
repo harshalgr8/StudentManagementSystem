@@ -6,13 +6,8 @@ namespace StudentManagementSystem.Students
 {
     internal interface IStudent
     {
-        void DeleteStudent();
-         
-
-        void GetStudents();
-         
-
-        void SaveStudent();
-        
+        internal void addStudent();
+        internal void removeStudent();
+        internal void saveStudent();
     }
 }
