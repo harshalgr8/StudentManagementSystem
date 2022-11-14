@@ -6,17 +6,17 @@ namespace StudentManagementSystem.Students
 {
     internal class Student : IStudent
     {
-        void IStudent.addStudent()
+        void IStudent.DeleteStudent()
+        {
+
+        }
+
+        void IStudent.GetStudents()
         {
             throw new NotImplementedException();
         }
 
-        void IStudent.removeStudent()
-        {
-            throw new NotImplementedException();
-        }
-
-        void IStudent.saveStudent()
+        void IStudent.SaveStudent()
         {
             throw new NotImplementedException();
         }
