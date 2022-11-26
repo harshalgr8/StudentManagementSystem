@@ -1,24 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using System.Windows.Forms;
-
 
 namespace StudentManagementSystem.Students
 {
-    internal class Student : IStudent
+    internal class Standard : IStandard
     {
-        void IStudent.DeleteStudent()
-        {
-
-        }
-
-        void IStudent.GetStudents()
+        void IStandard.GetStandards()
         {
             throw new NotImplementedException();
         }
 
-        void IStudent.SaveStudent()
+        void IStandard.LoadStandards()
+        {
+            throw new NotImplementedException();
+        }
+
+        void IStandard.SaveStandards()
         {
             throw new NotImplementedException();
         }

@@ -1,5 +1,5 @@
 ﻿using Microsoft.VisualBasic;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -9,7 +9,13 @@ namespace StudentManagementSystem.Students
     {
         internal void GetStudents();
         internal void SaveStudent();
-       
-        internal void DeleteStudent();
+        void DeleteStudent();
+         
+
+        void GetStudents();
+         
+
+        void SaveStudent();
+        
     }
 }
