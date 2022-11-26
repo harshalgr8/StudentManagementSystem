@@ -10,5 +10,9 @@ namespace StudentManagementSystem
         {
 
         }
+        public void Test2()
+        {
+
+        }
     }
 }
